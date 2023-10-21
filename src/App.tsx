@@ -7,6 +7,7 @@ import { Genre } from "./hooks/UseGenres";
 import PlatformSelector from "./components/PlatformSelector";
 import { Game, Platform } from "./hooks/useGames";
 import SortSelector from "./components/SortSelector";
+import getCroppedImageUrl from "./services/img-url";
 
 export interface GameQuery {
   genre: Genre | null;
